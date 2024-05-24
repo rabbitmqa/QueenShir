@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css"> 
+    <link rel="stylesheet" href="css/fonts.css"> 
+    <title>שיר - מעצבת שיער מקצועית</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('images/background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff; /* Text color on top of the background */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+
+    
+<script>
+    window.addEventListener('scroll', function() {
+        const menu = document.getElementById('menu');
+        if (window.scrollY > 0) {
+            menu.classList.add('scrolled');
+        } else {
+            menu.classList.remove('scrolled');
+        }
+    });
+</script>
+
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+        <ul>
+            <li><a href="contact.html">הזמנות</a></li>
+            <li><a href="My Socials.html">קישורים נוספים</a></li>
+            <li><a href="gallery.html">עבודות</a></li>
+            <li><a href="index.html">דף הבית</a></li>
+        </ul>
+    </div>
+
+    <div class="separator" style="height: 300px; background-color: rgba(0, 0, 0, 0) ; margin: 200;"></div>
+
+    <div class="container">
+        <h1>צרו קשר עוד היום כדי לקבוע תור</h1>
+        <p></p>
+        <p>example@example.com : מייל</p>
+        <p>טלפון: 123-456-7890</p>
+    </div>
+</body>
+</html>
+
+
